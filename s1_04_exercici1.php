@@ -7,8 +7,9 @@ Crea un objecte de la classe Employee i inicialitza’l amb el nom i sou corresp
 Imprimeix el nom i si ha de pagar impostos o no.*/
 
 
-$employee1 ("Pau" , 1500);
-$employee2 ("Jordi" , 7000);
+$employee = new Employee();
+$employee->initialize ("Pau" , 1500);
+
 class Employee {
 private $name;
 private $salary;
