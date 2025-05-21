@@ -1,10 +1,4 @@
 <?php
-/*Escriu un programa que defineixi una classe Shape 
-amb un constructor que rebi com a paràmetres l'ample i alt. Defineix dues subclasses; 
-Triangle i Rectangle que heretin de Shape i que calculin respectivament l'àrea de la forma area().*/
-
-
-
 class Shape
 {
     protected $ample;
@@ -53,5 +47,8 @@ echo "Àrea del triangle: " . $triangle->area() . "\n";
 echo "Àrea del rectangle: " . $rectange->area() . "\n";
 
 ?>
+
+
+
 
 
