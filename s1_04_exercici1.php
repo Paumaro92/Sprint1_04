@@ -17,7 +17,7 @@ class Employee
     public function print()
     {
         echo "Nom: " . $this->name . "\n";
-        if ($this->salary >= 6000) {
+        if ($this->salary > 6000) {
             echo "Ha de pagar impostos.\n";
         } else {
             echo "No ha de pagar impostos.\n";
